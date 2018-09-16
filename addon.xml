@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.audio.wdrdreipersoenlich" version="1.0" name="WDR 3 Persönlich mit Götz Alsmann" provider-name="WDR 3">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.feedparser" version="5.1.3"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="de_DE">WDR 3 Persönlich mit Götz Alsmann</summary>
+        <description lang="de_DE">WDR 3 Persönlich mit Götz Alsmann</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+        <source>https://www1.wdr.de/radio/wdr3/programm/sendungen/wdr3-persoenlich-alsmann/index.html</source>
+        <news></news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
